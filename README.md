@@ -7,8 +7,8 @@ edit OV2640.cpp for resolution ( found UXGA just takes to much out of the esp32,
 
 Changes: 
 
-    factory reset button was incorrect, so device always came up n factory reset mode
-    easily changed from autoip to manual by:
+    factory reset button was incorrect, so device always came up in factory reset mode
+    easily change from autoip to manual by:
        uncomment ssid/password, wifibegin, 
        comment out WiFi.mode(WIFI_STA), and anotheything to do with autowifi (autowifi, a. etc)
     included all the aditional libaries needed so no longer need platforio, and can just use Arduino IDE)
